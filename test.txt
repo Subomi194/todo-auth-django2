@@ -10,73 +10,15 @@ python manage.py migrate
 
 python manage.py createsuperuser
 
-
-
-    {
-        'title': 'Go to gym',
-        'description': 'Leg workout for 2 hours',
-        'completed': False
-    }
-    
-    {
-        "title": "Go to gym",
-        "description": "Leg workout for 2 hours",
-        "completed": false
-    }
-
-[
-    {
-        "title": "Buy groceries",
-        "description": "Get eggs, milk, bread and vegetables from the store",
-        "completed": false
-    },
-    {
-        "title": "Read a book",
-        "description": "Read 30 pages of Atomic Habits before bed",
-        "completed": false
-    },
-    {
-        "title": "Fix login bug",
-        "description": "Investigate why users are getting 401 errors on login",
-        "completed": false
-    },
-    {
-        "title": "Call the bank",
-        "description": "Ask about the balance",
-        "completed": false
-    },
-    {
-        "title": "Clean the house",
-        "description": "Vacuum the floors, wipe surfaces and take out the bins",
-        "completed": false
-    },
-    {
-        "title": "Finish Django project",
-        "description": "Complete the todo API and push to GitHub before end of day",
-        "completed": false
-    },
-    {
-        "title": "Morning walk",
-        "description": "30 minute walk around the neighbourhood after breakfast",
-        "completed": false
-    },
-    {
-        "title": "Reply emails",
-        "description": "Respond to all unread emails sitting in the inbox",
-        "completed": false
-    },
-    {
-        "title": "Cook dinner",
-        "description": "Make jollof rice and fried chicken for the family",
-        "completed": false
-    },
-    {
-        "title": "Update CV",
-        "description": "Add the Django REST API project to the experience section",
-        "completed": false
-    }
-]
-
 implement CursorPagination in DRF
 
 reverse - dont need to call path, just call the name of the url
+
+python manage.py test
+
+deactivate
+rm -rf venv
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python manage.py runserver
